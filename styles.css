@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    color: RoyalBlue;
+    font-family: Helvetica;
+}
+
+.sidebar {
+    width: 160px;
+    background-color: LightSkyBlue;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: RoyalBlue;
+    font-family: Helvetica;
+}

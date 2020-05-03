@@ -1,17 +1,44 @@
+* {
+    font-family: Helvetica;
+}
+
 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
     color: RoyalBlue;
-    font-family: Helvetica;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: LightSkyBlue;
+    font-size: 17px;
+}
+
+.profile-pic {
+    text-align: center;
+    /*  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    */
 }
 
 .sidebar {
     width: 160px;
     background-color: LightSkyBlue;
+    position: fixed;
 }
 
 .sidebar a {
     padding: 6px 8px 6px 16px;
     font-size: 25px;
     color: RoyalBlue;
-    font-family: Helvetica;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: DarkCyan;
 }

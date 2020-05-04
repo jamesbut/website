@@ -4,14 +4,30 @@
 <meta charset="utf-8">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
-</head>
 
-<title>James Butterworth | Research</title>
+    <title>James Butterworth | Research</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Load jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js" 
+            integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" 
+            crossorigin="anonymous">
+    </script>
+
+    <!-- Load header & sidebar -->         
+    <script>
+        $(document).ready(function(){
+            $("#header").load("header.html");
+            $("#sidebar").load("sidebar.html");
+        });
+    </script>
+
+</head>
 
 <body>
 
-    <p>Research</p>
+    <div id="header"></div>
+    <div id="sidebar"></div>
 
 </body>
 

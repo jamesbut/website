@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta charset="utf-8">
-    
 <head>
 
-    <title>James Butterworth | About</title>
+    <meta charset="utf-8">
+
+    <title>James Butterworth</title>
     <link rel="stylesheet" href="styles.css">
 
     <!-- Load jquery -->
@@ -16,7 +16,7 @@
 
     <!-- Load header & sidebar -->         
     <script>
-        $(function(){ 
+        $(document).ready(function(){
             $("#header").load("header.html");
             $("#sidebar").load("sidebar.html");
         });
@@ -24,15 +24,10 @@
 
 </head>
 
-
 <body>
 
     <div id="header"></div>
     <div id="sidebar"></div>
-
-    <div class="profile-pic">
-        <img src="imgs/james_prof_pic.jpg" alt="James profile picture" width="528" height="528">
-    </div>
 
 </body>
 

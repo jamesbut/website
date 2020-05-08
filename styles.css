@@ -64,23 +64,23 @@ h1 {
     color: DarkCyan;
 }
 
-/* Publication box */
-.publication {
+/* A section-box is a small box that displays information like publications or teaching */
+.section-box {
     text-align: center;
 }
 
-.publication.title {
+.section-box h1 {
     color: Tomato;
 }
 
-.publication.author {
+.section-box h2 {
     color: Purple;
 }
 
-.publication.venue {
+.section-box h3 {
     color: Green;
 }
 
-.publication-year {
+.section-group-title {
     text-align: center;
 }

@@ -16,6 +16,15 @@ h2 {
     font-size: 17px;
 }
 
+.prose {
+    text-align: center;
+    color: LightSkyBlue;
+    border-style: solid;
+    border-color: RoyalBlue;
+    width: 50%;
+    margin: auto;
+}
+
 .profile-pic {
     text-align: center;
     /*  

@@ -67,18 +67,36 @@ h1 {
 /* A section-box is a small box that displays information like publications or teaching */
 .section-box {
     text-align: center;
+    border-style: solid;
+    margin: 5px 5px;
+    color: RoyalBlue;
 }
 
 .section-box h1 {
-    color: Tomato;
+    color: RoyalBlue;
+    font-size: large;
+    margin: 5px 0px;
 }
 
 .section-box h2 {
-    color: Purple;
+    color: LightSkyBlue;
+    font-size: medium;
+    margin: 5px 0px;
 }
 
 .section-box h3 {
-    color: Green;
+    color: #0000FF;
+    font-size: medium;
+    margin: 5px 0px;
+}
+
+.section-box a:hover {
+    color: DarkCyan;
+}
+
+.section-group {
+    border-style: solid;
+    margin: 5px 200px;
 }
 
 .section-group-title {

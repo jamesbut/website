@@ -16,6 +16,14 @@ ul {
     list-style-type: none;
 }
 
+a, a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: Grey;
+}
+
 .logo {
     width: 50px;
     margin-left: 20px;
@@ -69,10 +77,17 @@ ul {
 
 .content-column {
     width: 40%;
-    text-align: center;
     margin: 100px auto auto auto;
     color: white;
     padding-left: 20px;
+}
+
+.content-column h1 {
+    margin-bottom: 30px;
+}
+
+.content-column p {
+    margin: 15px 0px;
 }
 
 .content-column figure {
@@ -83,11 +98,9 @@ ul {
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
 }
 
 .content-column figcaption {
-    text-align: left;
     font-style: italic;
 }
 
@@ -132,3 +145,20 @@ ul {
     float: left;
 }
 
+.section-box {
+    margin-bottom: 20px;
+}
+
+.section-box h1 {
+    margin: 5px 0px;
+    font-size: 1.5em;
+}
+
+.section-box h2, h3 {
+    font-size: 1.2em;
+}
+
+.section-box h4 {
+    display: inline;
+    font-size: 0.9em;
+}
